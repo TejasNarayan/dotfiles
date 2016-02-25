@@ -20,4 +20,7 @@ for file in $files; do
 	ln -s $dir/$file ~/.$file
 done
 
+#Link the vim and nvim
+ln -s ~/.vimrc ~/.nvimrc
+
 echo "Done"
