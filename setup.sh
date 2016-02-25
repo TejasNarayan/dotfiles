@@ -7,7 +7,7 @@
 
 dir=~/dotfiles
 olddir=~/dotfiles_backup
-files="i3 oh-my-zsh vimrc zshrc"
+files="vim i3 oh-my-zsh vimrc zshrc"
 
 #Make the folder for the backups
 mkdir -p $olddir
@@ -21,6 +21,7 @@ for file in $files; do
 done
 
 #Link the vim and nvim
-ln -s ~/.vimrc ~/.nvimrc
+ln -s ~/.vim ~/.config/nvim
+ln -s ~/.vimrc ~/.config/nvim/init.vim
 
 echo "Done"
