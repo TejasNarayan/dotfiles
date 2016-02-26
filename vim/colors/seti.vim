@@ -1,0 +1,1 @@
+/home/tejas/.vim/bundle/seti.vim/colors/seti.vim
