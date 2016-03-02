@@ -14,6 +14,9 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
+" Installs something that lets me know about the indent
+Plugin 'Yggdroot/indentLine'
+
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
@@ -99,6 +102,9 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 " ----------------------------------------------------------------------------------------
+"  Airline theme changing
+
+let g:airline_theme='wombat'
 
 set laststatus=2
 
@@ -121,7 +127,7 @@ set laststatus=2
      let g:airline_symbols.paste = 'ρ'
      let g:airline_symbols.paste = 'Þ'
      let g:airline_symbols.paste = '∥'
-     let g:airline_symbols.whitespace = 'Ξ'
+     let g:airline_symbols.whitespace = ' '
 
      " airline symbols
      let g:airline_left_sep = ''
