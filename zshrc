@@ -87,3 +87,6 @@ POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 if [[ -r /usr/local/lib/python2.7/dist-packages/powerline/bindings/zsh/powerline.zsh ]]; then
 	source /usr/local/lib/python2.7/dist-packages/powerline/bindings/zsh/powerline.zsh
 fi
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
