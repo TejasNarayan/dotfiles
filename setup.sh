@@ -7,7 +7,7 @@
 
 dir=~/dotfiles
 olddir=~/dotfiles_backup
-files="vim i3 oh-my-zsh vimrc zshrc"
+files="vim i3 oh-my-zsh vimrc zshrc atom"
 
 #Make the folder for the backups
 mkdir -p $olddir

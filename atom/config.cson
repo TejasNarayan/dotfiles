@@ -1,0 +1,14 @@
+"*":
+  core:
+    themes: [
+      "spacegray-dark-ui"
+      "spacegray-dark-syntax"
+    ]
+  editor:
+    fontFamily: "Monospace"
+    fontSize: 18
+    showInvisibles: true
+  "exception-reporting":
+    userId: "34ff8e5e-eef8-a5ba-53aa-9ca43d7c7e60"
+  welcome:
+    showOnStartup: false
