@@ -1,12 +1,24 @@
 [user]
-	email = tejas.s.narayan@gmail.com
-	name = Tejas Narayan
+  email = tejas.s.narayan@gmail.com
+  name = Tejas Narayan
 [alias]
-	cob = checkout -b
-	st = status
-	save = !git add -A && git commit -m 'SAVEPOINT'
-	undo = reset HEAD~1 --mixed
-	amend = commit -a --amend
-	cm = !git add -A && git commit -m
+  cob = checkout -b
+  co = checkout
+  st = status -s
+  save = !git add -A && git commit -m 'SAVEPOINT'
+  undo = reset HEAD~1 --mixed
+  cm = !git add -A && git commit -m
+  c = commit --verbose
+
+  # one-line log
+  l = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+
+  d = diff
+  ds = diff --stat
+  dc = diff --cached
+
+  # list branches sorted by last modified
+  b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
+
 [push]
-	default = simple
+  default = simple
