@@ -1,0 +1,42 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: ""
+    python: {}
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "spacegray-dark-ui"
+      "spacegray-atom-dark-syntax"
+    ]
+  editor:
+    fontFamily: "Fira Code"
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "3555bc11-302a-add6-5320-7ebd4726530b"
+  kite:
+    showKiteTourOnStatup: false
+  linter: {}
+  "linter-pylint": {}
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+".console.python.text":
+  editor:
+    tabLength: 4
+".python.source":
+  editor:
+    scrollPastEnd: true
+    showInvisibles: true
+".python.text.traceback":
+  editor:
+    tabLength: 4

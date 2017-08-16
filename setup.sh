@@ -7,7 +7,7 @@
 
 dir=~/dotfiles
 olddir=~/dotfiles_backup
-files="vim i3 oh-my-zsh vimrc zshrc gitconfig"
+files="vim vimrc zshrc gitconfig gitignore tmux.conf"
 
 #Make the folder for the backups
 mkdir -p $olddir
